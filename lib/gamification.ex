@@ -12,6 +12,8 @@ defmodule Gamification do
       :world
 
   """
+  defstruct total_points: 0, total_percent: 0, scores: [], data: nil
+
   def hello do
     :world
   end
